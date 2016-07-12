@@ -1,5 +1,4 @@
 build:
-  image: node:4
+  image: node
   commands:
     - npm install
-
