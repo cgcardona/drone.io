@@ -1,4 +1,5 @@
-image: mwallasch/docker-ruby-node
+
+image: node:4.4
 script:
   - npm install
   - npm test
