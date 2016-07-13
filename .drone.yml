@@ -1,6 +1,4 @@
 build:
-  image: golang
+  image: node:4
   commands:
-    - go get
-    - go build
-    - go test
+    - npm install 
